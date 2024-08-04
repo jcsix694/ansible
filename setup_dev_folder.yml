@@ -1,0 +1,6 @@
+---
+- name: Create development folder in Documents
+  file:
+    path: "{{ lookup('env', 'HOME') }}/Documents/development"
+    state: directory
+    mode: '0755'

@@ -1,0 +1,28 @@
+---
+- command: brew --version
+  register: brew_version
+  failed_when: false
+
+- set_fact:
+    homebrew_installed: "{{ brew_version.rc == 0 }}"
+
+- name: HOMEBREW
+  debug:
+    msg: "{{ homebrew_installed | bool }}"
+
+- name: HOMEBREW - Installing
+  become: no
+  shell: |
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  when: not homebrew_installed
+  changed_when: true
+
+- command: brew --version
+  register: brew_version_check
+  when: not homebrew_installed
+  changed_when: false
+
+- name: HOMEBREW
+  debug:
+    msg: "{{ (brew_version_check.rc == 0) | bool }}"
+  when: not homebrew_installed

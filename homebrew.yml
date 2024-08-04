@@ -1,0 +1,7 @@
+---
+- become: no
+  community.general.homebrew:
+    name:
+      - mas # MAS CLI
+    state: present
+    update_homebrew: true
