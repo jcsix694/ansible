@@ -67,9 +67,18 @@ You will be prompted to enter your password. Once entered correctly, ansible wil
 
 ## Configuration
 This ansible setup will configure the following on your mac device:
-- brew (Homebrew)
-- mas (Mac App Store CLI)
-- Installs Mac App Store Apps:
+- Installs brew (Homebrew)
+- Installs via brew (Homebrew)
+  - git
+  - mas (Mac App Store CLI)
+  - Google Chrome
+  - Google Drive
+  - Docker
+  - Spotify
+  - Discord
+  - JetBrains Toolbox
+  - Sourcetree
+- Installs via mas (Mac App Store CLI):
   - Slack
   - NordLayer
 - Creates a `development` folder located in the Documents path  
