@@ -16,6 +16,11 @@
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   when: not homebrew_installed
   changed_when: true
+  
+- name: HOMEBREW - Adding Homebrew to PATH
+  shell: eval "$(/opt/homebrew/bin/brew shellenv)"
+  when: not homebrew_installed
+  changed_when: true
 
 - command: brew --version
   register: brew_version_check
