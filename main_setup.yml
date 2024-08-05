@@ -15,3 +15,6 @@
 
     - name: FOLDERS
       include_tasks: setup_dev_folder.yml
+      
+    - name: DOCK
+      include_tasks: dock.yml
