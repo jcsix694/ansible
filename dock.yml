@@ -4,7 +4,8 @@
     dockutil --remove all --allhomes
     dockutil --add /Applications/Launchpad.app --allhomes
     dockutil --add /Applications/Google\ Chrome.app --allhomes
-    dockutil --add /Applications/Sourcetree.app --allhomes
     dockutil --add /Applications/Slack.app --allhomes
+    dockutil --add /Applications/Sourcetree.app --allhomes
+    dockutil --add /Applications/PhpStorm.app --allhomes
     dockutil --add /Applications/Spotify.app --allhomes
     dockutil --add /Applications/Discord.app --allhomes

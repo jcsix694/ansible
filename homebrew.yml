@@ -17,5 +17,6 @@
       - spotify
       - discord
       - jetbrains-toolbox
+      - phpstorm
       - sourcetree
     state: present
