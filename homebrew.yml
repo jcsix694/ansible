@@ -16,4 +16,5 @@
       - spotify
       - discord
       - jetbrains-toolbox
+      - sourcetree
     state: present
