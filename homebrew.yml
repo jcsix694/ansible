@@ -2,6 +2,18 @@
 - become: no
   community.general.homebrew:
     name:
-      - mas # MAS CLI
+      - mas # Mac App Store CLI
+      - git
     state: present
     update_homebrew: true
+
+- become: no
+  community.general.homebrew_cask:
+    name:
+      - google-chrome
+      - google-drive # Drive Slides Sheets Docs
+      - docker
+      - spotify
+      - discord
+      - jetbrains-toolbox
+    state: present
