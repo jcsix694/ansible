@@ -28,6 +28,7 @@ Follow the steps below which will then allow you to run the `ansible` commands.
   ```
   pip3 install ansible
   ```
+- In the file `dependencies.yml`, change line number 21 to include your username. This is currently set to `jakesixsmith`.
 
 ## Confriming Ansible is Installed
 Run the command to return `ansible` information:
