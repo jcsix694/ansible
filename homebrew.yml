@@ -4,6 +4,7 @@
     name:
       - mas # Mac App Store CLI
       - git
+      - dockutil
     state: present
     update_homebrew: true
 
