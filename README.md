@@ -81,4 +81,5 @@ This ansible setup will configure the following on your mac device:
 - Installs via mas (Mac App Store CLI):
   - Slack
   - NordLayer
-- Creates a `development` folder located in the Documents path  
+- Creates a `development` folder located in the Documents path
+- Configures Dock
