@@ -3,6 +3,8 @@
 A tool using Ansible to setup your mac device.
 
 ## Prerequisites
+DO NOT INSTALL PYTHON TO THE SYSTEM!
+
 Follow the steps below which will then allow you to run the `ansible` commands.
 
 - In the App Store, make sure you are signed in (Account Settings > Sign In)
@@ -26,13 +28,13 @@ Follow the steps below which will then allow you to run the `ansible` commands.
   [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
   eval "$(pyenv init -)"
   ```
-- Upgrade Pip:
+- Install Python 3.12:
   ```
-  sudo -H pip3 install --upgrade pip
+  pyenv install 3.12
   ```
 - Install Ansible
   ```
-  pip3 install ansible
+  pip install ansible
   ```
 - In the file `dependencies.yml`, change line number 21 to include your username. This is currently set to `jakesixsmith`.
 
