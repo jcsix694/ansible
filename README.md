@@ -52,7 +52,7 @@ export PATH=$PATH:OUTPUT
 - Save & Close
 - In a terminal, type in:
 ```
-source ~/.zshrcsource ~/.zshrc
+source ~/.zshrc
 ```
 - Retry the following command to confirm ansible is working:
 ```
