@@ -20,9 +20,11 @@ Follow the steps below which will then allow you to run the `ansible` commands.
   ```
   curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash
   ```  
-- Add the following into your ```~/.bashrc``` using ```nano ~/.bashrc```:
+- Add the following into your ```~/.zshrc``` using ```nano ~/.zshrc```:
   ```
-  eval "$(pyenv init --path)"
+  export PYENV_ROOT="$HOME/.pyenv"
+  [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+  eval "$(pyenv init -)"
   ```
 - Upgrade Pip:
   ```
