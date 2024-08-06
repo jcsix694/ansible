@@ -16,9 +16,9 @@ Follow the steps below which will then allow you to run the `ansible` commands.
   xcodebuild -license
   ```
    and then, type agree at the end and press enter.
-- Run the following command to add Python 3 to your ```$PATH```:
+- Add the following into your ```~/.zshrc``` using ```nano ~/.zshrc```:
   ```
-  export PATH="$HOME/Library/Python/3.8/bin:/opt/homebrew/bin:$PATH"
+  eval "$(pyenv init --path)"
   ```
 - Upgrade Pip:
   ```
