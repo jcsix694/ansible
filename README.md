@@ -16,7 +16,9 @@ Follow the steps below which will then allow you to run the `ansible` commands.
   xcodebuild -license
   ```
    and then, type agree at the end and press enter.
-- Add the following into your ```~/.zshrc``` using ```nano ~/.zshrc```:
+- Install pyenv using the following
+  ```curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash```  
+- Add the following into your ```~/.bashrc``` using ```nano ~/.bashrc```:
   ```
   eval "$(pyenv init --path)"
   ```
