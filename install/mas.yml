@@ -1,6 +1,5 @@
 ---
-- become: no
-  community.general.mas:
+- community.general.mas:
     id:
       - 803453959 # Slack
       - 1488888843 # Nord Layer

@@ -1,0 +1,20 @@
+---
+- name: Run Setup
+  hosts: localhost
+  become: no
+  gather_facts: yes
+  tasks:
+    - name: DEPENDENCIES
+      include_tasks: install/dependencies.yml
+
+    - name: HOMEBREW (Install Packages + Update Homebrew)
+      include_tasks: install/homebrew.yml
+      
+    - name: MAC APP STORE (Install Apps + Upgrade All)
+      include_tasks: install/mas.yml
+
+    - name: FOLDERS
+      include_tasks: install/setup_dev_folder.yml
+      
+    - name: DOCK
+      include_tasks: install/dock.yml

@@ -1,0 +1,15 @@
+---
+- command: brew --version
+  register: brew_version
+  failed_when: false
+
+- set_fact:
+    homebrew_installed: "{{ brew_version.rc == 0 }}"
+
+- name: HOMEBREW - Installed?
+  debug:
+    msg: "{{ homebrew_installed | bool }}"
+
+- name: PLEASE INSTALL HOMEBREW BY FOLLWING THE README THEN RE-RUN ANSIBLE
+  meta: end_play
+  when: not homebrew_installed

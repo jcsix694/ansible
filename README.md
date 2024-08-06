@@ -44,7 +44,6 @@ Follow the steps below which will then allow you to run the `ansible` commands.
   ```
   pip install ansible
   ```
-- In the file `dependencies.yml`, change line number 21 to include your username. This is currently set to `jakesixsmith`.
 
 ## Confriming Ansible is Installed
 Run the command to return `ansible` information:
@@ -78,13 +77,12 @@ ansible-playbook
 ## Running Ansible
 In a new terminal, run the following command
 ```
-ansible-playbook main_setup.yml -K -e ansible_become_password=YOUR-PASSWORD
+ansible-playbook setup.yml -K -e ansible_become_password=YOUR-PASSWORD
 ```
 You will be prompted to enter your password. Once entered correctly, ansible will run to configure your mac device.
 
 ## Configuration
 This ansible setup will configure the following on your mac device:
-- Installs brew (Homebrew)
 - Installs via brew (Homebrew)
   - git
   - mas (Mac App Store CLI)
