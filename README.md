@@ -32,6 +32,10 @@ Follow the steps below which will then allow you to run the `ansible` commands.
   ```
   pyenv install 3.12
   ```
+- Set Python to use 3.12:
+  ```
+  pyenv global 3.12
+  ```  
 - Install Ansible
   ```
   pip install ansible
