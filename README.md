@@ -76,9 +76,9 @@ ansible-playbook
 ```
 
 ## Running Ansible
-In a terminal, run the following command
+In a new terminal, run the following command
 ```
-ansible-playbook main_setup.yml -K
+ansible-playbook main_setup.yml -K -e ansible_become_password=YOUR-PASSWORD
 ```
 You will be prompted to enter your password. Once entered correctly, ansible will run to configure your mac device.
 
