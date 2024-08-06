@@ -35,6 +35,10 @@ Follow the steps below which will then allow you to run the `ansible` commands.
 - Set Python to use 3.12:
   ```
   pyenv global 3.12
+  ```
+- Install pexpect
+  ```
+  pip install pexpect
   ```  
 - Install Ansible
   ```
