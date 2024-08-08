@@ -86,6 +86,7 @@ This ansible setup will configure the following on your mac device:
 - Installs via brew (Homebrew)
   - git
   - mas (Mac App Store CLI)
+  - node
   - dockutil
   - awscli
 - Installs via brew cask (Homebrew Cask)
@@ -95,6 +96,8 @@ This ansible setup will configure the following on your mac device:
   - Spotify
   - Discord
   - JetBrains Toolbox
+  - PHP Storm
+  - Web Storm
   - Sourcetree
   - Sublime Text
 - Installs via mas (Mac App Store CLI):

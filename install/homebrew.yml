@@ -4,6 +4,7 @@
     name:
       - mas # Mac App Store CLI
       - git
+      - node
       - dockutil
       - awscli
     state: present
@@ -19,6 +20,7 @@
       - discord
       - jetbrains-toolbox
       - phpstorm
+      - webstorm
       - sourcetree
       - sublime-text
     state: present
