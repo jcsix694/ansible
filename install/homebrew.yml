@@ -5,7 +5,7 @@
       - mas # Mac App Store CLI
       - git
       - dockutil
-      - nvm
+      - awscli
     state: present
     update_homebrew: true
     
@@ -20,4 +20,5 @@
       - jetbrains-toolbox
       - phpstorm
       - sourcetree
+      - sublime-text
     state: present

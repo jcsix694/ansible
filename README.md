@@ -86,6 +86,9 @@ This ansible setup will configure the following on your mac device:
 - Installs via brew (Homebrew)
   - git
   - mas (Mac App Store CLI)
+  - dockutil
+  - awscli
+- Installs via brew cask (Homebrew Cask)
   - Google Chrome
   - Google Drive
   - Docker
@@ -93,6 +96,7 @@ This ansible setup will configure the following on your mac device:
   - Discord
   - JetBrains Toolbox
   - Sourcetree
+  - Sublime Text
 - Installs via mas (Mac App Store CLI):
   - Slack
   - NordLayer
