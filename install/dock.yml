@@ -12,3 +12,4 @@
     dockutil --add /Applications/Spotify.app --allhomes
     dockutil --add /Applications/Discord.app --allhomes
     dockutil --add /Applications/Sublime\ Text.app --allhomes
+    dockutil --add /Applications/Insomnia.app --allhomes

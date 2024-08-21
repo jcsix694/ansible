@@ -23,4 +23,5 @@
       - webstorm
       - sourcetree
       - sublime-text
+      - insomnia
     state: present
