@@ -9,7 +9,8 @@
     dockutil --add /Applications/Sourcetree.app --allhomes
     dockutil --add /Applications/PhpStorm.app --allhomes
     dockutil --add /Applications/WebStorm.app --allhomes
+    dockutil --add /Applications/DataGrip.app --allhomes
+    dockutil --add /Applications/Insomnia.app --allhomes
     dockutil --add /Applications/Spotify.app --allhomes
     dockutil --add /Applications/Discord.app --allhomes
     dockutil --add /Applications/Sublime\ Text.app --allhomes
-    dockutil --add /Applications/Insomnia.app --allhomes

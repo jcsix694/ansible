@@ -100,6 +100,8 @@ This ansible setup will configure the following on your mac device:
   - Web Storm
   - Sourcetree
   - Sublime Text
+  - Insomnia
+  - DataGrip
 - Installs via mas (Mac App Store CLI):
   - Slack
   - NordLayer

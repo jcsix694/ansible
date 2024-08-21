@@ -24,4 +24,5 @@
       - sourcetree
       - sublime-text
       - insomnia
+      - datagrip
     state: present
