@@ -4,7 +4,8 @@
     name:
       - mas # Mac App Store CLI
       - git
-      - node
+      - nvm
+      - yarn
       - dockutil
       - awscli
     state: present
@@ -25,4 +26,20 @@
       - sublime-text
       - insomnia
       - datagrip
+    state: present
+
+- name: Create NVM directory
+  file:
+    path: "{{ ansible_env.HOME }}/.nvm"
+    state: directory
+    mode: '0755'
+
+- name: Add NVM initialization to .zshrc
+  lineinfile:
+    path: "{{ ansible_env.HOME }}/.zshrc"
+    create: yes
+    line: |
+      export NVM_DIR="$HOME/.nvm"
+      [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"
+      [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"
     state: present

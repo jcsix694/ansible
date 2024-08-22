@@ -28,13 +28,28 @@ Follow the steps below which will then allow you to run the `ansible` commands.
   [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
   eval "$(pyenv init -)"
   ```
-- Install Python 3.12:
+- Install Python 3.10:
   ```
-  pyenv install 3.12
+  pyenv install 3.10
   ```
-- Set Python to use 3.12:
+- Install Python 2.7
   ```
-  pyenv global 3.12
+  pyenv install 2.7
+  ```
+- Set Python to use 3.10 and then 2.7:
+  ```
+  pyenv global 3.10 2.7
+  ```
+- Confirm Python 3.10 is being used
+  ```
+  python3 --version
+  ```
+  ```
+  python --version
+  ```
+- Confirm Python 2.7 is being used
+  ```
+  python2 --version
   ```
 - Install pexpect
   ```
