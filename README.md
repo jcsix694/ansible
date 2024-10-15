@@ -104,6 +104,7 @@ This ansible setup will configure the following on your mac device:
   - node
   - dockutil
   - awscli
+  - composer
 - Installs via brew cask (Homebrew Cask)
   - Google Chrome
   - Google Drive

@@ -8,9 +8,10 @@
       - yarn
       - dockutil
       - awscli
+      - composer
     state: present
     update_homebrew: true
-    
+
 - become: no
   community.general.homebrew_cask:
     name:
