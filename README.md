@@ -133,4 +133,4 @@ This ansible setup will configure the following on your mac device:
   - Slack
   - NordLayer
 - Creates a `development` folder located in the Documents path
-- Configures Dock
+- Configures Dock (Cant get Logi Options to appear automatically sadly)
