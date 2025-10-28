@@ -128,9 +128,9 @@ This ansible setup will configure the following on your mac device:
   - Insomnia
   - DataGrip
   - Logi Options +
+  - Microsoft Teams
 - Installs via mas (Mac App Store CLI):
   - Slack
   - NordLayer
-  - Microsoft Teams
 - Creates a `development` folder located in the Documents path
 - Configures Dock
