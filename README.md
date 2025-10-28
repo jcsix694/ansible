@@ -28,6 +28,9 @@ Follow the steps below which will then allow you to run the `ansible` commands.
   [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
   eval "$(pyenv init -)"
   ```
+  ```
+  source ~/.zshrc
+  ``` 
 - Install Python 3.10:
   ```
   pyenv install 3.10
