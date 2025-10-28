@@ -118,8 +118,10 @@ This ansible setup will configure the following on your mac device:
   - Sublime Text
   - Insomnia
   - DataGrip
+  - Logi Options +
 - Installs via mas (Mac App Store CLI):
   - Slack
   - NordLayer
+  - Microsoft Teams
 - Creates a `development` folder located in the Documents path
 - Configures Dock
