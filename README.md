@@ -92,6 +92,12 @@ source ~/.zshrc
 ansible-playbook
 ```
 
+## Install Brew
+Install brew from the following: https://brew.sh/
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
 ## Running Ansible
 In a new terminal, run the following command
 ```
