@@ -28,6 +28,7 @@
       - insomnia
       - datagrip
       - logi-options+
+      - microsoft-teams
     state: present
 
 - name: Create NVM directory
