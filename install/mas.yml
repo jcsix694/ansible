@@ -3,5 +3,6 @@
     id:
       - 803453959 # Slack
       - 1488888843 # Nord Layer
+      - 1113153706 # Microsoft Teams
     state: present
     upgrade_all: true

@@ -5,7 +5,10 @@
     dockutil --add /Applications/Launchpad.app --allhomes
     dockutil --add /Applications/Notes.app --allhomes
     dockutil --add /Applications/Google\ Chrome.app --allhomes
+    dockutil --add /Applications/Microsoft\ Teams.app --allhomes
     dockutil --add /Applications/Slack.app --allhomes
+    dockutil --add /Applications/Logi\ Options+.app --allhomes
+    dockutil --add /Applications/Docker.app --allhomes
     dockutil --add /Applications/Sourcetree.app --allhomes
     dockutil --add /Applications/PhpStorm.app --allhomes
     dockutil --add /Applications/WebStorm.app --allhomes
