@@ -5,12 +5,3 @@
     nvm install node
   args:
     executable: /bin/zsh
-
-- name: Install Node.js version 14 using NVM with x86_64 architecture
-  shell: |
-    arch -x86_64 zsh -c '
-      source {{ ansible_env.HOME }}/.zshrc
-      nvm install 14
-    '
-  args:
-    executable: /bin/zsh
